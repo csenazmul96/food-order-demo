@@ -29,7 +29,7 @@ const list = [
 ];
 
 const AvalilableMeals = ()=>{
-    const mealLIst = list.map((meal=><MealItem key={meal.id} name={meal.name} description={meal.description} price={meal.price} id={meal.id} />))
+    const mealLIst = list.map((meal=><MealItem key={meal.id} id={meal.id} name={meal.name} description={meal.description} price={meal.price} id={meal.id} />))
     return (
         <section className={classes.meals}>
             <Card>
